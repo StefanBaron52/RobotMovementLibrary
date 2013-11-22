@@ -18,6 +18,13 @@ second to complete. Make sure you have enough room to let the robot roam free.
 - 100 Micro Farad Capacitor
 - Robot built with battery, on/off switch, place for MSP430 launchpad
 
+
+##Important Note on the Robot
+
+- Make sure that you use a duty cycle appropriate the move the robot
+- Put some additional weight or a large battery on one side of the robot to not let it be so "jerky"
+- The "jerkyness" of movements could potentially reset the robot and make it start all over with implementing movement code
+
 ##Code Explanations
 
 ```
